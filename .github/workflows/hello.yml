@@ -1,0 +1,13 @@
+name: Hello World
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Привет из GitHub Actions
+        run: echo "👋 Привет! CI работает!"
