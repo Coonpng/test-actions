@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Привет из GitHub Actions
         run: echo "👋 Привет! CI работает!"
-        name: Check Python vers
+      - name: Check Python vers
         run: python3 --version
